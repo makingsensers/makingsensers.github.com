@@ -1,0 +1,5 @@
+{% if site.author.feedburner and site.author.feedburner != "feedname" %}
+	<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="http://feeds.feedburner.com/{{ site.author.feedburner }}">
+{% else %}
+	<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ HOME_PATH }}atom.xml">	
+{% endif %}
