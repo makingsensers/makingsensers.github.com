@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="row">
+	<div class="span10">
+	
+	{% include JB/post-list %}
+	
+	</div>
+	<div class="span2">
+		<h4>All Pages</h4>
+		<ul>
+		{% assign pages_list = site.pages %}
+		{% include JB/pages_list %}
+		</ul>
+	</div>
+</div>
