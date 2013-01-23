@@ -1,7 +1,7 @@
 ---
 layout: post
 category: Blogging
-tags: jekyll, github, wordpress
+tags: [jekyll, github, wordpress]
 title: A blogging framework for hackers
 author: andresmoschini
 ---

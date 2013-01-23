@@ -1,7 +1,7 @@
 ---
 layout: post
 category: Self-Training
-tags: wpf
+tags: [wpf]
 title: Training de WPF finalizado
 author: andresmoschini
 ---

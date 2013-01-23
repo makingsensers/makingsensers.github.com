@@ -3,7 +3,7 @@ layout: post
 category: Self-Training / News at a glance
 title: jquery-tmpl (templates)
 author: leoslopez
-tags: javascript, jquery-tmpl, templates
+tags: [javascript, jquery-tmpl, templates]
 ---
 
 ### jQuery plug-in: [jquery-tmpl](http://api.jquery.com/category/plugins/templates/)

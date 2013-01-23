@@ -2,7 +2,7 @@
 layout: post
 image: /img/posts/2013-01-22-a-blogging-framework-for-hackers-continuacion.jpg
 category : Blogging
-tags : jekyll, github, markdown, wordpress
+tags : [jekyll, github, markdown, wordpress]
 title: A blogging framework for hackers (Continuación)
 author: andresmoschini
 ---

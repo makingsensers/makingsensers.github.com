@@ -1,7 +1,7 @@
 ---
 layout: post
 category: Best Practices / Clean Code Tips
-tags: best practices, clean code, Robert Martin
+tags: [best practices, clean code, Robert Martin]
 title: Clean Code Tips (Week 2)
 author: julianwaimann
 ---

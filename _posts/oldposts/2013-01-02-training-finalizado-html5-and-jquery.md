@@ -1,7 +1,7 @@
 ---
 layout: post
 category: Self-Training / News at a glance
-tags: boilerplate, entity framework, flot, html5, jquery-tmpl, mvc, raphael
+tags: [boilerplate, entity framework, flot, html5, jquery-tmpl, mvc, raphael]
 title: Training finalizado – HTML5 and jQuery
 author: andresmoschini
 ---

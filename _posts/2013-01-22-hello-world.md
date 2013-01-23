@@ -2,7 +2,7 @@
 layout: post
 image: /img/posts/2013-01-22-hello-world.jpg
 category : Blogging
-tags : jekyll, markdown, highlight
+tags : [jekyll, markdown, highlight]
 title: Hello World!
 ---
 

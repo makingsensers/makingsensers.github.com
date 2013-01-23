@@ -1,7 +1,7 @@
 ---
 layout: post
 category: JavaScript
-tags: amd, javascript, RequireJS
+tags: [amd, javascript, RequireJS]
 title: AMD & RequireJS
 author: nicolasmbatista
 ---
