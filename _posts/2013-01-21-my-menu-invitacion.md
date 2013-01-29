@@ -4,6 +4,7 @@ image: /img/posts/2013-01-21-my-menu-invitacion.jpg
 category : MyMenu
 tags : [selftraining, typescript, javascript, commonjobs]
 title: My Menu - Invitación
+author: andresmoschini
 ---
 
 Trabajamos en una empresa de soft, desarrollamos software y somos buenos haciendoló. Por eso, creo que es bueno que participemos en el desarrollo y mejoras de las aplicaciones que utilizamos día a día. Ese es el caso del sistema de selección de las comidas diarias: nosotros deberíamos arreglarlo, mejorarlo, optimizarlo y, llegado el caso, reemplazarlo completamente.

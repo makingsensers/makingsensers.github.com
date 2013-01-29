@@ -3,6 +3,7 @@ layout: post
 image: /img/posts/2013-01-24-my-menu-instructivo/image.jpg
 category: Self-Training / My Menu
 title: My Menu - Instructivo
+author: andresmoschini
 ---
 
 Al entrar a la página principal ***`1`***, se muestra el plato y lugar seleccionado para el día actual ***`2`***.

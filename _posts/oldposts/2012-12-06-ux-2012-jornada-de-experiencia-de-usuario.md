@@ -1,8 +1,7 @@
 ---
 layout: post
 title: UX 2012, Jornada de Experiencia de Usuario
-post_author: Lisandro Martinez
-author: Lisandro Martinez
+author: lisandromartinez
 ---
 
 El 28 de noviembre de 2012, Día Mundial de la Usabilidad, asistimos junto a Nacho Caldentey a la **Jornada de Experiencia de Usuario UX2012** en el Centro Cultural San Martín.
