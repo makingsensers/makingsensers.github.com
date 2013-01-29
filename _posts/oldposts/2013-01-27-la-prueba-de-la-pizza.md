@@ -1,3 +1,12 @@
+---
+layout: post
+category: User Experience
+tags: [claridad, decisión, dispositivos móviles, experiencia del usuario, mobile, pizza, Rackspace, user experience, UX]
+title: La Prueba de la Pizza
+author: jraimondi
+summary: La versión casera de pruebas de carga cognitiva
+---
+
 Hace tiempo atrás, en **MakingSense** tuvimos la oportunidad de trabajar en el desarrollo de una aplicación móvil. No sólo era para una empresa grande, sino que la aplicación iba a ser mostrada en vivo por Microsoft en la presentación **//BUILD 2012** junto a Rackspace. Mi historia tratará sobre otra cosa, pero si les interesa, pueden [leer más sobre eso en el blog de MakingSense](http://blog.makingsense.com/2012/11/windows-8-app-with-rackspace/), o asimismo [en el blog de Rackspace](http://www.rackspace.com/blog/manage-the-rackspace-open-cloud-with-windows-8/).
 
 Participé de este proyecto a pesar de muchos factores internos que lo dificultaban, pero me alegra haberlo hecho porque tenía características muy interesantes. Al comienzo de dicho proyecto, obtuvimos los requerimientos y analizamos sistemas de Rackspace para tener más contexto sobre lo que teníamos que hacer. En una de esas oportunidades, realizamos una reunión sobre alcance, diseño y experiencia de usuario.
