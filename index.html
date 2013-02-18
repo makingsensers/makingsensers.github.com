@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-
-{{ content }}
+{% include JB/setup %}
 
 <div class="row">
 	<div class="span10">
 	
+	{% assign post-list = site.posts %}
 	{% include JB/post-list %}
 	
 	</div>
