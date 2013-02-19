@@ -14,7 +14,7 @@ Ingresando a [la carpeta `_posts` del repositorio del sitio](https://github.com/
 
 ![Crear un nuevo archivo]({{ BASE_PATH }}/img/pages/colaborar/create-file.png)
 
-El nombre de archivo **`(1)`** debe satisfacer el formato `yyyy-mm-dd-titulo-del-post-sin-espacios.ext`, y la extensión dependerá corresponder al markup utilizado en el contenido: `.html, `.md` para Markdown, o `.textile` para Textile.
+El nombre de archivo **`(1)`** debe satisfacer el formato `yyyy-mm-dd-titulo-del-post-sin-espacios.ext`, y la extensión dependerá del markup elegido para el contenido: `.html, `.md` para Markdown, o `.textile` para Textile.
 
 ![Escribir el contenido]({{ BASE_PATH }}/img/pages/colaborar/write-content.png)
 
@@ -22,8 +22,13 @@ El nombre de archivo **`(1)`** debe satisfacer el formato `yyyy-mm-dd-titulo-del
 
 //TODO: escribir sobre el formato: https://github.com/mojombo/jekyll/wiki/Liquid-Extensions
 
-![Escribir el contenido]({{ BASE_PATH }}/img/pages/colaborar/write-content.png)
+//TODO: si no tiene permisos
+
+![Pull Request]({{ BASE_PATH }}/img/pages/colaborar/pull-request.png)
 
 //TODO , puede elegirse entre [Markdown](http://daringfireball.net/projects/markdown/), [Textile](http://txstyle.org/) o directamente HTML.
 
 //TODO: creo que esto va distinto: recomendamos solicitar permisos para pertenecer a la organización [makingsensers](https://github.com/makingsensers/makingsensers.github.com) aunque no es necesario
+
+//TODO: https://github.com/mojombo/jekyll/wiki/Usage
+//TODO: http://jekyllbootstrap.com/lessons/jekyll-introduction.html
