@@ -25,3 +25,20 @@ Como todo principiante, o incluso como todo experto que cada tanto necesita veri
 
 (Lo que escribiré ahora se puede [ver en el commit 90e6…4f7abd9](https://github.com/AlphaGit/random-javascript/commit/90e6540100631e1a3ae590c3bde4a21b74f7abd9).)
 
+Lo primero y principal, y lo más simple fue setear el HTML y los estilos necesarios. **Todo estará hecho en HTML5 Canvas** y siendo manejado a través de JavaScript, nuestra estructura en el DOM en sí no debería ser demasiado compleja. Sí necesitamos, sin embargo, un documento válido y limpio.
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+      	<title>Arkanoid with canvas</title>
+    		<link rel="stylesheet" type="text/css" href="arkanoid.css">
+    		<script type="text/javascript" src="arkanoid.js"></script>
+    	</head>
+    	<body onload="arkanoid.init();">
+    	</body>
+    </html>
+
+Esto está claro: sólo tenemos un DOM HTML5, en donde asignamos un título, una referencia a un archivo CSS para que nos de los estilos a la página. Luego, por supuesto, la referencia a nuestro script, en donde se encontrará toda la lógica de la aplicación. Vamos a suponer por ahora que este archivo JavaScript expone un objeto llamado `arkanoid`, el cuál tiene un método llamado `.init()` al que podemos llamar. Eso lo hacemos, por supuesto, en el momento en que la página carga.
+
+Ahora, los estilos no deben ser complejos tampoco. Todo lo que necesitamos es que en el cuerpo de la página exista un canvas y que este se vea como ocupando todo el espacio disponible. Por supuesto que esto significa poner los márgenes y los paddings a cero, pero lo que yo no sabía es que para evitar tener scrollbars o espaciados innecesarios, debemos indicar específicamente que el objeto canvas va a comportase como bloque, y que **todo** en la página carezca de espaciados. Esto lo aprendí de [una respuesta de StackOverflow](http://stackoverflow.com/questions/4288253/html5-canvas-100-width-height-of-viewport).
+
