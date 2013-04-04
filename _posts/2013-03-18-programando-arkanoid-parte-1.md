@@ -1,8 +1,8 @@
 ---
 layout: post
 image: /img/posts/2013-03-18-programando-arkanoid-parte-1/arkanoid-thumb.jpg
-category : 
-tags : 
+category : JavaScript
+tags : [canvas, código, CSS, CSS3, desarrollo, desarrollo web, HTML5, JavaScript]
 title: Programando Arkanoid - Parte 1
 author: jraimondi
 ---
