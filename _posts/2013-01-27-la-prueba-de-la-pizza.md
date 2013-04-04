@@ -5,7 +5,10 @@ tags: [claridad, decisión, dispositivos móviles, experiencia del usuario, mobi
 title: La Prueba de la Pizza
 author: jraimondi
 summary: La versión casera de pruebas de carga cognitiva
+image: /img/posts/2013-01-27-la-prueba-de-la-pizza/image.jpg
 ---
+
+![Pizza](/img/posts/2013-01-27-la-prueba-de-la-pizza/Pizza.jpg)
 
 Hace tiempo atrás, en **MakingSense** tuvimos la oportunidad de trabajar en el desarrollo de una aplicación móvil. No sólo era para una empresa grande, sino que la aplicación iba a ser mostrada en vivo por Microsoft en la presentación **//BUILD 2012** junto a Rackspace. Mi historia tratará sobre otra cosa, pero si les interesa, pueden [leer más sobre eso en el blog de MakingSense](http://blog.makingsense.com/2012/11/windows-8-app-with-rackspace/), o asimismo [en el blog de Rackspace](http://www.rackspace.com/blog/manage-the-rackspace-open-cloud-with-windows-8/).
 
