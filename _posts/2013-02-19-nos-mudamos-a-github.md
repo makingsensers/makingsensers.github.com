@@ -11,7 +11,7 @@ Si bien el [blog de Makingsensers en WordPress](http://makingsensers.wordpress.c
 
 La idea es que cualquier _Makingsenser_ pueda postear allí, e inclusive mejorar las características del blog o el diseño del mismo **[Ver más detalles acerca de como colaborar](http://makingsensers.github.com/colaborar)**.
 
-Como mencionaba en los posts "[A blogging framework for hackers](http://makingsensers.github.com/2012/12/27/a-blogging-framework-for-hackers/)" y "[A blogging framework for hackers (Continuación)](http://makingsensers.github.com/2013/01/22/a-blogging-framework-for-hackers-continuacion/)", creo que como desarrolladores de software, podemos encontrar opciones más adecuadas para nosotros que WordPress o Blogguer.
+Como mencionaba en los posts "[A blogging framework for hackers](http://makingsensers.github.com/2012/12/27/a-blogging-framework-for-hackers/)" y "[A blogging framework for hackers (Continuación)](http://makingsensers.github.com/2013/01/22/a-blogging-framework-for-hackers-continuacion/)", creo que como desarrolladores de software, podemos encontrar opciones más adecuadas para nosotros que WordPress o Blogger.
 
 Conociendo _Markdown_ o _HTML_, tener que lidiar con un dudoso editor WYSIWYG es innecesario. Por otro lado, GitHub Pages nos permite utilizar nuestro editor de texto favorito y Git; para posts rápidos o para quienes no utilizan Git, GitHub provee convenientes [utilidades online](https://github.com/blog/1327-creating-files-on-github) o hay heramientas como [Prose](http://prose.io/about.html).
 
