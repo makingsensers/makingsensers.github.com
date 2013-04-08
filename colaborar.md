@@ -22,8 +22,7 @@ El nombre de archivo debe satisfacer el formato `yyyy-mm-dd-titulo-del-post-sin-
 
 #### Encabezado **`(2)`**
 
-En el encabezado del archivo se incluirá el nombre del _layout_ (en general deberá se `post`), el _title_, _summary_, _author_, _tags_, _category_ e _images_, puede encontrarse un ejemplo en <https://raw.github.com/makingsensers/makingsensers.github.com/master/_posts/2013-01-27-la-prueba-de-la-pizza.md> y para ver más detalles en <https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter>.
-> 
+En el encabezado del archivo se incluirá el nombre del _layout_ (en general deberá se `post`), el _title_, _summary_, _author_, _tags_, _category_ e _images_, puede encontrarse un ejemplo en <https://raw.github.com/makingsensers/makingsensers.github.com/master/_posts/2013-01-27-la-prueba-de-la-pizza.md> y para ver más detalles en <https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter>. 
 
 #### Contenido **`(3)`**
 
