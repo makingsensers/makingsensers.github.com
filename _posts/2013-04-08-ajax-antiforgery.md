@@ -4,6 +4,7 @@ category : Security
 tags : [ajax, security, antiforgery, forms-authentication, mvc, CSRF, XSRF]
 title: Antiforgery Token for AJAX
 author: amoschini
+image: /img/posts/2013-04-08-ajax-antiforgery.jpg
 ---
 
 Como sabrán, utilizando _Forms Authentication_, si no tenemos especial cuidado es 
