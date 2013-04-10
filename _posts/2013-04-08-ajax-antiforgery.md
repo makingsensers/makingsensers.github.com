@@ -45,6 +45,8 @@ Siguiendo [las recomendaciones de Phil Haack](http://haacked.com/archive/2011/10
 `ValidateJsonAntiForgeryTokenAttribute` que puede utilizarse para decorar 
 _controllers_ o _actions_ de manera de que se obtenga el parámetro `__RequestVerificationToken` de los _headers_ del request.
 
+{% highlight c# %}
+
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
     public class ValidateJsonAntiForgeryTokenAttribute : FilterAttribute, IAuthorizationFilter
     {
@@ -67,6 +69,8 @@ _controllers_ o _actions_ de manera de que se obtenga el parámetro `__RequestVe
         }
     }
 
+{% endhighlight %}
+
 Además, no lo chequearemos para los GET, ya que se supone que estas acciones son 
 de solo lectura y no presentan un peligro en este sentido, de esta manera 
 podemos decorar un _controller_ entero, sin preocuparnos por las _actions_ GET.
@@ -75,6 +79,8 @@ podemos decorar un _controller_ entero, sin preocuparnos por las _actions_ GET.
 
 Desde el lado del cliente, debemos incluir el hash del token en nuestro 
 _layout_:
+
+{% highlight html %}
 
     <!DOCTYPE html>
     <html>
@@ -88,8 +94,12 @@ _layout_:
     </body>
     </html>
 
+{% endhighlight %}
+
 Y desde _Javascript_, al realizar las llamadas AJAX debemos asegurarnos de incluir 
 el parámetro `__RequestVerificationToken` en el header.
+
+{% highlight javascript %}
 
     $.ajax({
         url: 'http://www.mybanco.com/account/transfer',
@@ -99,6 +109,8 @@ el parámetro `__RequestVerificationToken` en el header.
         headers: { __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val() }, // Acá está lo importante!
         type: 'POST'
     });
+
+{% endhighlight %}
 
 Eso es todo, de esta forma simple ya tenemos nuestros servicios para AJAX un 
 poco más protegidos.
