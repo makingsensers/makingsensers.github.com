@@ -26,8 +26,8 @@ es realizada ya que nuestro servicio recibe el request con la autenticación del
 usuario.
 
 La forma más común de prevenirlo en una aplicación ASP.NET MVC consiste en 
-utilizar el atributo [`ValidateAntiForgeryToken`](http://msdn.microsoft.com/en-us/library/system.web.mvc.validateantiforgerytokenattribute(v=vs.108).aspx) en conjunto con 
-el helper [`Html.AntiForgeryToken()`](http://msdn.microsoft.com/en-us/library/system.web.mvc.htmlhelper.antiforgerytoken(v=vs.108).aspx). 
+utilizar el atributo [ValidateAntiForgeryToken](http://msdn.microsoft.com/en-us/library/system.web.mvc.validateantiforgerytokenattribute.aspx) en conjunto con 
+el helper [Html.AntiForgeryToken()](http://msdn.microsoft.com/en-us/library/system.web.mvc.htmlhelper.antiforgerytoken.aspx). 
 
 Internamente ASP.NET genera un token que es almacenado en una cookie [HttpOnly](https://www.owasp.org/index.php/HttpOnly) y el helper renderiza un input hidden con el 
 nombre `__RequestVerificationToken`  y con el valor correspondiente a un hash del 
