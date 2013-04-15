@@ -5,6 +5,7 @@ tags: [html, html5, css]
 title: Training de HTML5 y CSS3 finalizado
 author: andresmoschini
 image: http://i.imgur.com/xq8hPIQ.jpg
+summary: Juan Muguruza terminó su self-training relacionado con HTML5 y CSS3.
 ---
 
 Juan Muguruza terminó su self-training [CAP-56](http://jira.makingsense.com/browse/CAP-56) relacionado 
