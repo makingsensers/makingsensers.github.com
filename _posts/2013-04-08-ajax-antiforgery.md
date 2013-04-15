@@ -5,9 +5,10 @@ tags : [ajax, security, antiforgery, forms-authentication, mvc, CSRF, XSRF]
 title: Antiforgery Token for AJAX
 author: amoschini
 image: /img/posts/2013-04-08-ajax-antiforgery.jpg
+summary: Cómo evitar Cross-site Request Forgery Attacks (o XSRF) al exponer servicios JSON con ASP.NET MVC4.
 ---
 
-Como sabrán, utilizando _Forms Authentication_, si no tenemos especial cuidado es 
+Cómo sabrán, utilizando _Forms Authentication_, si no tenemos especial cuidado es 
 muy fácil exponer nuestra aplicación a _Cross-site Request Forgery Attacks_ o 
 _CSRF_, Phil Haack lo explica muy claramente en su post [Anatomy of a Cross-site 
 Request Forgery Attack](http://haacked.com/archive/2009/04/02/anatomy-of-csrf-attack.aspx).
@@ -16,7 +17,7 @@ Básicamente esto significa que un sitio malicioso podría realizar una petició
 a nuestro sitio y utilizando nuestra cookie de autenticación y así utilizar los 
 permisos del usuario para realizar una acción indeseada por este.
 
-Por ejemplo, supongamos que nuestro sitio es un banco y mediante una API REST 
+Por ejemplo, supongamos que nuestro sitio es un banco y mediante una API JSON 
 exponemos un servicio `http://www.mybanco.com/account/transfer`. Nuestro usuario 
 está logueado revisando sus cuentas y recibe por email un link de una página de 
 _chicas lindas_. Él, sin dudarlo, ingresa a dicha página, desde donde 
